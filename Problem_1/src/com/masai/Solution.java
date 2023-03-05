@@ -22,7 +22,8 @@ import java.util.function.Supplier;
  * contain any number of private, static or default method.
  * for providing the implementation of abstract method 
  * of functional interface we use LAMBDA EXPRESSION , METHOD REFERENCES
- * and ANONYMOUS INNER CLASS.
+ * and ANONYMOUS INNER CLASS. It is also know as SINGLE  ABSTRACT METHOD INTERFACE OR
+ * SAM INTERFACE
  * 
  * 
  * 
