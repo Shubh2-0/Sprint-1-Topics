@@ -1,91 +1,58 @@
+<div align="center">
 
-# Sprint-1-Topics 🚀
+# 🚀 Sprint-1 Java Topics
 
-This repository contains the code and resources for Sprint 1, which covers the following topics:
+[![GitHub stars](https://img.shields.io/github/stars/Shubh2-0/Sprint-1-Topics?style=for-the-badge&logo=github&color=yellow)](https://github.com/Shubh2-0/Sprint-1-Topics/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Shubh2-0/Sprint-1-Topics?style=for-the-badge&logo=github&color=blue)](https://github.com/Shubh2-0/Sprint-1-Topics/network/members)
 
-- Functional Interface
-- Lambda Expression
-- Inbuilt Functional Interfaces in Java
-- Collections Framework Problems
+### Java 8 Features & Collections
 
-## Projects
+*Functional interfaces, lambdas, and collections mastery*
 
-### Problem 1
+</div>
 
-Description: This project addresses a specific problem related to functional interfaces. It demonstrates how to implement and utilize them effectively. 💡
+---
 
-Solution:
-- What is Functional Programming and Functional Interface ❓
-- Implementations of Functional Interfaces:
-  - Predicate<Product> ✔️
-  - Consumer<Product> 🖨️
-  - Supplier<Product> 🛍️
-  - Function<String, Product> ↔️
+## 🎯 About
 
-### Problem 2
+Sprint-1 focused repository covering essential Java 8 features and Collections Framework. Master functional programming and data structures!
 
-Description: In this project, we dive into lambda expressions and explore their practical applications. It showcases various examples to illustrate their usage. 📝
+## 📚 Topics Covered
 
-Solution:
-- Bean classes: Student and Employee 📚
-- List of Student objects 📋
-- Transformation of Students to Employees using Stream API and map function 🔄
-- Sorting Employees by salary in descending order using Lambda Expression 📉
-- Printing both Employee's List and Original Student's List using Lambda Expression 🖨️
+| Topic | Description |
+|-------|-------------|
+| **Functional Interfaces** | @FunctionalInterface, SAM |
+| **Lambda Expressions** | Concise syntax for anonymous functions |
+| **Built-in Interfaces** | Consumer, Supplier, Function, Predicate |
+| **Collections** | List, Set, Map implementations |
 
-### Problem 3
+## 💻 Examples
 
-Description: The Problem 3 project focuses on using stream API and lambda expressions to process a list of Student names. ✨
+```java
+// Functional Interface
+@FunctionalInterface
+interface Calculator {
+    int calculate(int a, int b);
+}
 
-Solution:
-- Create a List of 10 Student names using stream API 📝
-- Filter and transform names with even length to uppercase ✅
-- Sort the transformed List in descending order using Lambda Expression 📉
-- Print both original and transformed List using Lambda Expressions 🖨️
+// Lambda Implementation
+Calculator add = (a, b) -> a + b;
+Calculator multiply = (a, b) -> a * b;
 
-### Problem 4
+// Built-in Interfaces
+Consumer<String> printer = s -> System.out.println(s);
+Predicate<Integer> isEven = n -> n % 2 == 0;
+```
 
-Description: This project explains the features of the Stream API in Java and discusses some of the intermediate and terminal methods of the Stream object. 🌊
+## 🛠️ Technologies
 
-Solution:
-- Features of Stream API ✨
-- Intermediate methods example ⚙️
-- Terminal methods example 🏁
-
-### Problem 5
-
-Description: The Problem 5 project explains the concept of method reference and demonstrates how to refer to static methods, non-static methods, and constructors using method references. 🔗
-
-Solution:
-- Explanation of Method Reference ❓
-- Static method reference example ⚡
-- Non-static method reference example 🏃‍♀️
-- Constructor reference example 🏭
-
-### Problem 6
-
-Description: This project focuses on implementing a class named GroceryItems with customized sorting using the Comparator interface. 🛒
-
-Solution:
-- GroceryItems class with price, name, and usedFrequency data members 📦
-- Definition of Comparator to sort GroceryItems 🔀
-- Storing objects of GroceryItems in TreeSet with natural order and custom order defined by Comparator 🌟
+Java 8+ | Functional Programming | Collections
 
 ## 📬 Contact
 
-If you want to contact me, you can reach me through below handles.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-bhati-787319213/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhambhati226@gmail.com)
 
- <p align="left">
-  <a href="https://www.linkedin.com/in/shubham-bhati-787319213/" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" width="40px" alt="linkedin" /></a>&emsp;
-  <a title="shubhambhati226@gmail.com" href="mailto:shubhambhati226@gmail.com" target="_blank"><img align="center"  src="https://cdn-icons-png.flaticon.com/128/888/888853.png"  width="40px"   alt="mail-me" /></a>&emsp;
-  <a href="https://wa.me/+916232133187" target="blank"><img align="center" src="https://media2.giphy.com/media/Q8I2fYA773h5wmQQcR/giphy.gif" width="40px"  alt="whatsapp-me" /></a>&emsp;	
- </p>
+---
 
-<br>
-
-<div align="center">
-  <strong>Feel free to explore each project in detail, contribute, and learn from the code provided. Happy coding! 😊👩‍💻👨‍💻</strong>
-</div>
-
-
-
+**Keywords:** Java8 Functional-Interface Lambda Collections Stream-API Consumer Predicate
